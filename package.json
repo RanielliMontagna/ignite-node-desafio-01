@@ -1,0 +1,20 @@
+{
+  "name": "ignite-node-desafio-01",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "lint": "eslint src --ext .ts --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^5.3.8"
+  },
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^1.2.0",
+    "eslint": "^8.38.0"
+  }
+}
